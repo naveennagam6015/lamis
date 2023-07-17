@@ -1,0 +1,55 @@
+@import "../assets/color";
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+   
+  }
+  .form-control{
+    font-size: 0.8rem !important;
+  }
+  small,label {
+    font-size: 0.75rem !important;
+  }
+  label {
+    font-weight: 500 ;
+  }
+  b, strong {
+    font-weight: 600;
+}
+  #root {
+    height: 100%;
+  }
+.bg-login{
+    background-color: $loginBg;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-box{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background: $white;
+}
+.img-w{
+  width: 500px;
+}
+.loginBg {
+  background: url('../assets/images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid, .row {
+  height: 100%;
+}
+
+.w-60{
+  width: 60%;
+}
+.line {
+  border-bottom:solid 1px #c3c3c3  ;
+}
