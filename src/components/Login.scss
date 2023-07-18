@@ -3,6 +3,8 @@
 
 
 html, body {
+  font-size: 14px;
+
     height: 100%;
     margin: 0;
     font-family: 'Poppins', sans-serif !important;
@@ -52,4 +54,16 @@ html, body {
 }
 .line {
   border-bottom:solid 1px #c3c3c3  ;
+}
+.login-font{
+  font-size: 10px;
+}
+.text-purple{
+  color: $primary;
+}
+.btn-primary{
+  background-color:$primary !important ;
+}
+.btn-primary:hover{
+  background-color:$primary-hover !important ;
 }

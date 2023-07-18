@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './components/login';
+import Navbar from './components/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
     <Route index element={<Login />} />
+    <Route  element={<Navbar />} />
     </Routes>
   </BrowserRouter>
 );

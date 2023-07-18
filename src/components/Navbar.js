@@ -7,10 +7,10 @@ import Home from "./Home"
 import About from './About';
 import Carrer from './Carrer';
 import Contact from './Contact';
-import './styles.css'
 const  Navbar  = () => {
+    
     return (<>
-       
+       <BrowserRouter>
             <nav className='navbar bg-primary navbar-expand-md py-0'>
                 <div className='container '>
                 <a className='navbar-brand' href="/">
@@ -47,8 +47,7 @@ const  Navbar  = () => {
                     <Route path="/Contact" element={<Contact />} />
                 </Routes>
             </section>
-       
-        <Outlet />
+            </BrowserRouter>
     </>)
 }
 
