@@ -12,3 +12,20 @@ body {
 .text-black {
   color: $black;
  }
+ .cancel{
+  padding: 2px 4px ;
+  border-radius: 50%;
+
+
+ }
+.cancel:hover{
+  background-color: #c1c1c1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.border{
+  border: 2px solid #c1c1c1;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+.icon{
+padding: 0 3px; 
+margin-left: 5px;  
+}
+.icon:hover{
+background-color: aliceblue;
+color: black;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.list{
+    display: flex;
+    justify-content:space-between ;
+    width: fit-content;
+    min-width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+/* max-width: 500px;    */
+}
+
+

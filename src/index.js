@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Login from './components/login';
+// import Login from './components/login';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Routes>
-    <Route index element={<Login />} />
+    <Route index element={<Home />} />
     <Route  element={<Navbar />} />
     </Routes>
   </BrowserRouter>
